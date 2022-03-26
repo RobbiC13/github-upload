@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+}
+.intro{
+  height: 500px;
+  background-image: url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 250px
+}
+.intro-title{
+  color: white;
+  text-align: center;
+  background-color: rgba(0,0,0,0.4);
+  padding: 70px;
+  font-size: 20px;
+}
+.about-me{
+  text-align: center;
+  background-color: grey;
+}
+img{
+  width:15%;
+}
+nav{
+  height: 30px;
+  background-color: black;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover{
+  color: grey;
+  font-size: 17px;
+}
